@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;}
+  
+h1 {
+  margin: 20px auto;
+  padding: 10px;
+  background-color: beige;
+  color: #222;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 70px;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  padding: 10px;
+}
+
+.dark {
+  color: #fff;
+  background-color: #150101;
+}
+.footer {
+  border: 3px solid rgb(249, 253, 135);
+  border-radius: 15px;
+  padding: 10px;
+  background-color: black;
+  text-align: center;
+}
+
+.footer__paragraf {
+  color: white;
+}

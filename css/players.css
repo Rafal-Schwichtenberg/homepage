@@ -1,0 +1,20 @@
+
+  
+  .players {
+    padding-bottom: 60px;
+  }
+  .players__description {
+    line-height: 30px;
+    color: #444;
+    font-size: 18px;
+  }
+  .players__name {
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 25px;
+    color: sienna;
+  }
+  .dark .players__description {
+    color: #fff;
+   
+  }
